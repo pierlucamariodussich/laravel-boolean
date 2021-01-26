@@ -2,11 +2,18 @@
     <div class="news container ">
         <div class="row d-flex align-items-center justify-content-center">
             <div class=" col-12 d-flex align-items-center justify-content-center">
-                <div class="circle d-flex  align-items-center justify-content-center"> <i class="fa fa-bell" aria-hidden="true"></i> </div>
-                <div class="text_news d-flex align-items-center">
-                    <p> PROSSIMO CORSO IN PARTENZA:</p>
-                    <p> 10 MARZO</p>
-                </div>
+                <marquee
+                        class='d-flex  align-items-center'
+                        loop="-1"
+                        behavior='scrool'
+                        scrollamount="5"
+                        scrolldelay="5"
+                        direction="left"
+                        height="80"
+                        width="1920"
+                        align="center">
+                        <p><i class="fa fa-bell" aria-hidden="true"></i> PROSSIMO CORSO IN PARTENZA: <span> 10 MARZO </span></p>
+                </marquee>
             </div>
         </div>
     </div>

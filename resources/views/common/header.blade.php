@@ -9,7 +9,7 @@
                         scrollamount="5"
                         scrolldelay="5"
                         direction="left"
-                        height="80"
+                        height="30"
                         width="1920"
                         align="center">
                         <p><i class="fa fa-bell" aria-hidden="true"></i> PROSSIMO CORSO IN PARTENZA: <span> 10 MARZO </span></p>

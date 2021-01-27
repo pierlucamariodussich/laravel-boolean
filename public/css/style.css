@@ -31,11 +31,13 @@
 .news p{
     color:#001632;
     font-size: 15px;
+    font-weight: 300;
     
 }
 .news p > span{
     color:white;
     font-size: 15px;
+    font-weight: 400;
      
 }
 

@@ -6,7 +6,7 @@
                         class='d-flex  align-items-center'
                         loop="-1"
                         behavior='scrool'
-                        scrollamount="5"
+                        scrollamount="3"
                         scrolldelay="5"
                         direction="left"
                         height="30"

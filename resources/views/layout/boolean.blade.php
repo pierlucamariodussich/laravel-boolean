@@ -16,6 +16,9 @@
 </head>
 <body>
     @include('common.header')
+    @section('jumbo')  
+    @show
+    
 
 </body>
 </html>

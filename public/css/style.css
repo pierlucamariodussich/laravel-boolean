@@ -234,6 +234,19 @@ color: #0CD977;
   margin: 20px 0 40px 0;
 }
 
+.img_user > i:first-child{
+   font-size: 50px;
+   color: #0CD977 ;
+   
+   margin-right:10px
+  }
+
+  .img_user > i{
+    font-size: 50px;
+    color:#001632;
+    margin-left:10px;
+   }
+
 .user_box > p{
     color: #001632;
     font-size: 15px;
@@ -243,9 +256,9 @@ color: #0CD977;
 
 .user_box > p > span{
     color: #0CD977;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 400;
-    padding: 0 10px
+    
 }
 
 

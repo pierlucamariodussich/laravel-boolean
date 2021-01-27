@@ -179,6 +179,7 @@ color: #0CD977;
     font-size: 18px;
     line-height: 1.5;
     text-align: left;
+    padding-right: 10px;
  
 }
 .jumbo > .row > .col-6 > li > span {
@@ -195,4 +196,57 @@ color: #0CD977;
 .header_btn{
     margin: 30px 0 30px 10px;
 }
+
+.user_box{
+    width: 30%;
+    border: 2px solid #001632;
+    border-radius: 10px;
+    margin: 20px 10px;
+    padding-bottom: 30px;
+    
+}
+
+
+
+.logobox{
+    background-color: #001632;
+    height:50px;
+}
+
+.logobox > img{
+    height:30px;
+}
+
+
+
+.img_user > .img_box{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #001632;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.img_user{
+  margin: 20px 0 40px 0;
+}
+
+.user_box > p{
+    color: #001632;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0px 20px
+}
+
+.user_box > p > span{
+    color: #0CD977;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0 10px
+}
+
+
 

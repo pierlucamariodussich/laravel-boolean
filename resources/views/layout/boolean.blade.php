@@ -18,6 +18,8 @@
     @include('common.header')
     @section('jumbo')  
     @show
+    @section('users')
+    @show
     
 
 </body>

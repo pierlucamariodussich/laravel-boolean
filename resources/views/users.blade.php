@@ -14,7 +14,7 @@
            
             <div class="user_box ">
                 <div class='logobox d-flex align-items-center justify-content-center'>
-                    <img src="img/logo-white.png" alt="logo boolean">
+                    <img src={{ asset("img/logo-white.png")}} alt="logo boolean">
                 </div>
                 <div class="img_user d-flex align-items-center justify-content-center">
                     <i class="fas fa-angle-left"></i>
@@ -25,6 +25,7 @@
                 <p>Nome: <span>{{$member['first_name']}}</span></p>
                 <p>Cognome: <span>{{$member['last_name']}}</span></p>
                 <p>Email: <span>{{$member['email']}}</span></p>
+                <p>Scopri di più su: <span>  <a href="/users/{{$member['id']}}"> {{$member['first_name']}} {{$member['last_name']}}</a></span></p> 
             </div>
 
             @endforeach 

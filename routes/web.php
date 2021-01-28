@@ -34,4 +34,5 @@ Route::get( '/camp-gratuito', function(){
 }) -> name('camp-gratuito');
 
 Route::get( '/users', 'UsersController@index') -> name('users');
+Route::get('/users/{id}', 'UsersController@show' ) -> name('users.show');
 

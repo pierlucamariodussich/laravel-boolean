@@ -20,7 +20,7 @@
                 <div class="btn header_btn d-flex align-items-center justify-content-center"> <a href="">Candidati Ora</a></div>
             </div>
             <div class="col-6 d-flex align-items-center justify-content-center">
-                <img src="img/homeHeader.gif" alt="">
+                <img src={{asset("img/homeHeader.gif")}}  alt="">
             </div>
         </div>
     </div>

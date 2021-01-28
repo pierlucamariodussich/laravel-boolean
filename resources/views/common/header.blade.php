@@ -20,7 +20,7 @@
     <nav class="">
         <div class="row ">
             <div class="col-3 logo d-flex align-items-center">
-                <img src="img/logo.png" alt="logo boolean">
+                <img src={{asset("img/logo.png")}} alt="logo boolean">
             </div>
             <div class="col-9 navigation d-flex align-items-center justify-content-end ">
                     {{-- inserire un ciclo foreach che permette di generare le varie pagine
